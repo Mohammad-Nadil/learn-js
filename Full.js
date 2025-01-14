@@ -297,6 +297,7 @@
 // 14 string methods
 {
   let str = "Hello, World!";
+  let num = "10"
   console.log(str.length); // 13
   console.log(str.toUpperCase()); // HELLO, WORLD!
   console.log(str.toLowerCase()); // hello, world!
@@ -311,6 +312,9 @@
   console.log(str.includes("World")); // true
   console.log(str.startsWith("Hello")); // true
   console.log(str.endsWith("!")); // true
+  console.log(str.repeat(3)); // Hello, World!Hello, World!Hello, World!
+  str = Number.parseInt(str); // 10 ( converts string to number)
+  console.log(str); // 10
   console.log(typeof str); // string
 }
 
